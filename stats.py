@@ -30,11 +30,10 @@ def variance(data):
     # some deliberately misformatted code. Use flake8 to fix.
     n=len(data)  
     if n==0:
-        raise TypeError( )
+        raise ValueError( )
     average = sum(data)/n
     return sum( [(x-average)**2 for x in data] )/n
 
 def stdev(data):
     """The population standard deviation of a list of data values."""
     return sqrt(variance(data))
-
