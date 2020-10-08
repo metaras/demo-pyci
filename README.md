@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/metaras/demo-pyci.svg?branch=master)](https://travis-ci.com/metaras/demo-pyci)
 
+
 This project demonstrates use of Travis CI to build and test a Python project.  
 You will create a repository on Github, then have Travis-CI pull and test it,
 according to a "script" of instructions.
